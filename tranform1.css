@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+padding: 0;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+    
+}
+.images{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+  margin: 10px;
+
+}
+.images img{
+    height: 100%;
+    
+    width: 100%;
+}
+.images img:hover{
+    transform: scale(1.05);
+}
